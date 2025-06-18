@@ -1,0 +1,32 @@
+name: catatan_belanja
+description: Aplikasi untuk mencatat daftar belanja dengan penyimpanan lokal
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.0.0
+  intl: ^0.18.1
+  flutter_launcher_icons: ^0.14.4
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/84b4a39b4cb1c2a9ab754406e56ef76a.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
